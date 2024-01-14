@@ -12,11 +12,7 @@ Run `sudo sentry --init` for first-time setup. This will do the following:
   * Insert comment `<!-- Sentry commands><-->` to the line below
   * Searh for comment
     ```xml
-    <!--
-  <active-response>
-    active-response options here
-  </active-response>
-  -->
+    <!--<active-response>active-response options here</active-response>-->
     ```
   * Search for tag <active-response> (even if it is commented out)
   * Insert comment `<!-- Sentry responses><-->` to the line below
